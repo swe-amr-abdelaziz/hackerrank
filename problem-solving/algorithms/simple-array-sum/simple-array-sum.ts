@@ -1,7 +1,9 @@
 // https://www.hackerrank.com/challenges/simple-array-sum
 
-export function simpleArraySum(ar: number[]): number {
+export default function simpleArraySum(ar: number[]): number {
   let sum: number = 0;
-  ar.forEach(element => sum += element);
+  ar.forEach((element) => {
+    sum += element;
+  });
   return sum;
 }

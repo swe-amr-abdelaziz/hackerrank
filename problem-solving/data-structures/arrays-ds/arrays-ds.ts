@@ -1,10 +1,11 @@
 // https://www.hackerrank.com/challenges/arrays-ds
+/* eslint-disable no-param-reassign */
 
-export function reverseArray(a: number[]): number[] {
-  for (let i = 0; i < (a.length / 2); ++i) {
+export default function reverseArray(a: number[]): number[] {
+  for (let i = 0; i < a.length / 2; i += 1) {
     // Swap palindrome elements in the array
-    let tmp;
-    let idx = a.length - i - 1;
+    const tmp;
+    const idx = a.length - i - 1;
     tmp = a[idx];
     a[idx] = a[i];
     a[i] = tmp;

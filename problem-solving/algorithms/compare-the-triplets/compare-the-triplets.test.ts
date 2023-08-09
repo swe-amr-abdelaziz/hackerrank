@@ -1,6 +1,6 @@
-import { compareTriplets } from './compare-the-triplets';
+import { compareTriplets } from './compare-the-triplets.ts';
 
-describe('compareTriplets function: should return an array of 2 numbers: Alice\'s score is in the first position, and Bob\'s score is in the second.', () => {
+describe("compareTriplets function: should return an array of 2 numbers: Alice's score is in the first position, and Bob's score is in the second.", () => {
   it('Test Case 1', () => {
     expect(compareTriplets([1, 2, 3], [3, 2, 1])).toEqual([1, 1]);
   });

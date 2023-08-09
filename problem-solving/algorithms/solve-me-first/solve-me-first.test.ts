@@ -1,4 +1,4 @@
-import { sum } from './solve-me-first';
+import { sum } from './solve-me-first.ts';
 
 describe('sum function', () => {
   it('should return the sum of two positive numbers', () => {

@@ -1,4 +1,4 @@
-import { reverseArray } from './arrays-ds';
+import { reverseArray } from './arrays-ds.ts';
 
 describe('reverseArray function', () => {
   it('should return the reversed array of odd length array', () => {
