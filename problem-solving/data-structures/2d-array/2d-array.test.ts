@@ -2,7 +2,7 @@ import hourglassSum from './2d-array.ts';
 
 describe('hourglassSum function', () => {
   it('should return the maximum hourglass sum (test case 1)', () => {
-    const arr = [
+    const arr: number[][] = [
       [1, 1, 1, 0, 0, 0],
       [0, 1, 0, 0, 0, 0],
       [1, 1, 1, 0, 0, 0],
@@ -14,7 +14,7 @@ describe('hourglassSum function', () => {
   });
 
   it('should return the maximum hourglass sum (test case 2)', () => {
-    const arr = [
+    const arr: number[][] = [
       [1, 1, 1, 0, 0, 0],
       [0, 1, 0, 0, 0, 0],
       [1, 1, 1, 0, 0, 0],
@@ -26,7 +26,7 @@ describe('hourglassSum function', () => {
   });
 
   it('should return the maximum hourglass sum (test case 3)', () => {
-    const arr = [
+    const arr: number[][] = [
       [-9, -9, -9, 1, 1, 1],
       [0, -9, 0, 4, 3, 2],
       [-9, -9, -9, 1, 2, 3],
@@ -38,7 +38,7 @@ describe('hourglassSum function', () => {
   });
 
   it('should return the maximum hourglass sum (test case 4)', () => {
-    const arr = [
+    const arr: number[][] = [
       [1, 1, 1, 0, 0, 0],
       [0, 1, 0, 0, 0, 0],
       [1, 1, 1, 0, 0, 0],
