@@ -3,6 +3,7 @@
     "target": "ES6",
     "module": "CommonJS",
     "outDir": "./dist",
-    "strict": true
+    "strict": true,
+    "allowImportingTsExtensions": true,
   }
 }

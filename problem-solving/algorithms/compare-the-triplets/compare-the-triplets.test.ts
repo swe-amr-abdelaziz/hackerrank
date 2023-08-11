@@ -1,4 +1,4 @@
-import { compareTriplets } from './compare-the-triplets.ts';
+import compareTriplets from './compare-the-triplets.ts';
 
 describe("compareTriplets function: should return an array of 2 numbers: Alice's score is in the first position, and Bob's score is in the second.", () => {
   it('Test Case 1', () => {

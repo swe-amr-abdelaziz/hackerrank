@@ -4,9 +4,8 @@
 export default function reverseArray(a: number[]): number[] {
   for (let i = 0; i < a.length / 2; i += 1) {
     // Swap palindrome elements in the array
-    const tmp;
     const idx = a.length - i - 1;
-    tmp = a[idx];
+    const tmp = a[idx];
     a[idx] = a[i];
     a[i] = tmp;
   }

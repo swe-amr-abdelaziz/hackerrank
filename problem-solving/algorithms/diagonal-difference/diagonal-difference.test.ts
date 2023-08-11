@@ -1,4 +1,4 @@
-import { diagonalDifference } from './diagonal-difference.ts';
+import diagonalDifference from './diagonal-difference.ts';
 
 describe('diagonalDifference function', () => {
   it('should return the absolute difference of 2d array diagonals', () => {

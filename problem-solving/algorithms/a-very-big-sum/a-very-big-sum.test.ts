@@ -1,4 +1,4 @@
-import { aVeryBigSum } from './a-very-big-sum.ts';
+import aVeryBigSum from './a-very-big-sum.ts';
 
 describe('aVeryBigSum function', () => {
   it("should return the sum of the array's elements", () => {

@@ -1,4 +1,4 @@
-import { simpleArraySum } from './simple-array-sum.ts';
+import simpleArraySum from './simple-array-sum.ts';
 
 describe('simpleArraySum function', () => {
   it('should return the sum of all numbers in the array', () => {
