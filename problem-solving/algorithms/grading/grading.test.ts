@@ -1,4 +1,4 @@
-import gradingStudents from './grading-students.ts';
+import gradingStudents from './grading.ts';
 
 describe('gradingStudents function', () => {
   it('should return the grades after rounding as appropriate (test case 1)', () => {
