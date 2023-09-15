@@ -1,10 +1,17 @@
 module.exports = {
-  parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'prettier'],
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint", "prettier"],
   extends: [
-    'airbnb',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
+    "airbnb",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
   ],
-  rules: {},
+  rules: {
+    quotes: ["error", "double"],
+  },
+  parserOptions: {
+    ecmaFeatures: {},
+    ecmaVersion: "latest",
+    sourceType: "script",
+  },
 };

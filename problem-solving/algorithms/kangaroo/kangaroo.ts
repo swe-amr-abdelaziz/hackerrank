@@ -8,7 +8,7 @@ export default function kangaroo(
 ): string {
   const diff = Math.abs(x2 - x1) - Math.abs(x2 + v2 - (x1 + v1));
   if (diff > 0 && Math.abs(x2 - x1) % diff === 0) {
-    return 'YES';
+    return "YES";
   }
-  return 'NO';
+  return "NO";
 }

@@ -21,9 +21,9 @@ export default function dayOfProgrammer(year: number): string {
     month += 1;
   }
   month += 1;
-  return `${day.toString().padStart(2, '0')}.${month
+  return `${day.toString().padStart(2, "0")}.${month
     .toString()
-    .padStart(2, '0')}.${year}`;
+    .padStart(2, "0")}.${year}`;
 }
 
 dayOfProgrammer(2017);

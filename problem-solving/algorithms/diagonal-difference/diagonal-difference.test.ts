@@ -1,7 +1,7 @@
-import diagonalDifference from './diagonal-difference.ts';
+import diagonalDifference from "./diagonal-difference.ts";
 
-describe('diagonalDifference function', () => {
-  it('should return the absolute difference of 2d array diagonals', () => {
+describe("diagonalDifference function", () => {
+  it("should return the absolute difference of 2d array diagonals", () => {
     expect(
       diagonalDifference([
         [1, 2, 3],
@@ -11,7 +11,7 @@ describe('diagonalDifference function', () => {
     ).toBe(2);
   });
 
-  it('should return the absolute difference of 2d array diagonals', () => {
+  it("should return the absolute difference of 2d array diagonals", () => {
     expect(
       diagonalDifference([
         [11, 2, 4],
@@ -21,7 +21,7 @@ describe('diagonalDifference function', () => {
     ).toBe(15);
   });
 
-  it('should return the absolute difference of 2d array diagonals', () => {
+  it("should return the absolute difference of 2d array diagonals", () => {
     expect(
       diagonalDifference([
         [20, 2, 7],
